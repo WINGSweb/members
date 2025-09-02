@@ -3,4 +3,4 @@
 /wp-login.php https://wings.theearthisround.co.za/wp-login.php 301!
 
 # Main proxy rule
-/* https://wings.theearthisround.co.za/:splat 200
+/* https://wings.theearthisround.co.za/:splat 200!
