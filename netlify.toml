@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "https://wings.theearthisround.co.za/:splat"
+  status = 200
