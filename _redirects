@@ -1,1 +1,6 @@
+# Redirect WordPress admin to original site
+/wp-admin/* https://wings.theearthisround.co.za/wp-admin/:splat 301!
+/wp-login.php https://wings.theearthisround.co.za/wp-login.php 301!
+
+# Main proxy rule
 /* https://wings.theearthisround.co.za/:splat 200
