@@ -2,3 +2,4 @@
   from = "/*"
   to = "https://wings.theearthisround.co.za/:splat"
   status = 200
+  force = true
