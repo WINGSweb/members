@@ -1,0 +1,13 @@
+name: Scheduled Netlify Deploy
+on:
+  schedule:
+    - cron: '*/5 * * * *'  # Every 5 minutes
+  workflow_dispatch:  # Allow manual triggers
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify Deploy
+        run: |
+          curl -X POST -d {} ${{ secrets.NETLIFY_BUILD_HOOK }}
