@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
-  to = "https://wings.theearthisround.co.za/:splat"
-  status = 200
+  from = "https://members.wingsweb.org/*"
+  to = "https://wingswebmembers.org/:splat"
+  status = 301
   force = true
